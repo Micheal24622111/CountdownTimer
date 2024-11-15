@@ -1,0 +1,57 @@
+/* .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  } */
+  
+  
+
+  *{
+      box-sizing: border-box;
+  }
+
+  body{
+    background-image: url("snow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 96vh;
+    font-family:  "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    
+  }
+
+  h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: normal;
+  }
+
+  .countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+  }
+  .countdown-el
+  {
+    text-align: center;
+  }
+  .countdown-el span{
+    font-size: 1.3rem;
+
+  }
+  
+
+
+  
